@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="cafeteria, tinta de impressora, café quetinho, café, projeto html, projeto">
+    <meta name="description" content="Você tem buscado uma cafeteria onde possua uma enorme variedade de cafés (incluindo o tinta de impressora)? então acaba de encontrar! - site responsivo">
+    <meta name="author" content="Camila Carla Soares">
+
+    <title>Design de site de cafeteria responsivo</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <!-- fonte awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  
+<!-- seção cabeçalho início -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">sobre</a>
+        <a href="#menu">menu</a>
+        <a href="#products">produtos</a>
+        <a href="#review">review</a>
+        <a href="#contact">contato</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="procure aqui...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-1.png" alt="">
+            <div class="content">
+                <h3>Grãos torra clara</h3>
+                <div class="price">$12.99</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-2.png" alt="">
+            <div class="content">
+                <h3>Grãos torra escura</h3>
+                <div class="price">$15.99</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-3.png" alt="">
+            <div class="content">
+                <h3>Grãos verdes e torra média</h3>
+                <div class="price">$11.99</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-4.png" alt="">
+            <div class="content">
+                <h3>Grãos torra média</h3>
+                <div class="price">$14.99</div>
+            </div>
+        </div>
+        <a href="#" class="btn">confira agora</a>
+    </div>
+
+</header>
+
+<!-- seção cabeçalho fim -->
+
+<!-- seção home início -->
+
+<section class="home" id="home">
+
+    <div class="content"> 
+        <h3>café fresco da manhã</h3>
+        <p>O café é uma bebida produzida a partir dos grãos torrados do fruto do cafeeiro. É servido tradicionalmente quente, mas também pode ser consumido gelado.</p>
+        <a href="#" class="btn">pegue o seu agora</a>
+    </div>
+
+</section>
+
+<!-- seção home fim -->
+
+<!-- seção sobre início -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>Sobre</span> nós </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>o que torna nosso café especial?</h3>
+            <p>A determinação de um café especial vai além das características sensoriais da bebida, englobando também aspectos sociais, culturais e ambientais.</p>
+            <p>Algumas cultivares apresentam geneticamente um maior potencial de produzir cafés com qualidade superior. Uma das mais conhecidas por esse aspecto é o Bourbon Amarelo. Maiores altitudes, solos com fertilidade construída, temperaturas amenas e bom volume de chuvas, são condições ideais para obtenção de bons cafés, e o nosso café possui isso tudo!</p>
+            <a href="#" class="btn">Ler mais</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- seção home fim -->
+
+<!-- seção menu início -->
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"><span>menu</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/menu-1.png" alt="">
+            <h3>gostoso e saudavel</h3>
+            <div class="price">$11.99 <span>15.99</span></div>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-2.png" alt="">
+            <h3>tinta de impressora</h3>
+            <div class="price">$20.99 <span>25.99</span></div>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-3.png" alt="">
+            <h3>Cappuccino</h3>
+            <div class="price">$10.99 <span>16.99</span></div>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-4.png" alt="">
+            <h3>Café acorda na hora</h3>
+            <div class="price">$14.99 <span>17.99</span></div>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-5.png" alt="">
+            <h3>chafé da mamãe</h3>
+            <div class="price">$22.99 <span>26.99</span></div>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-6.png" alt="">
+            <h3>café com leite</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- seção menu fim -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> nossos <span>produtos</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>café fresco</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>grãos de impressora</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$18.99 <span>$22.99</span></div>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>café torrado</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$17.99 <span>$22.99</span></div>
+            </div>
+        </div>
+    
+    </div>
+
+</section>
+
+<!-- seção review início -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> avaliação <span>dos nossos clientes</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Recomendo o "tinta de impressora", dormi 4 horas essa noite, pois estava estudando para uma prova muito importante que tinha hoje de manhã, então não podia ficar sem um café, a atendende me recomendou o "tinta de impressora", melhor café que já tomei, salvou minha prova!</p>
+            <img src="images/pic-1.png" class="user" alt="">
+            <h3>Hugo Vieira</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Sempre amei tomar um cafezinha logo pela manhã, mas esses últimos anos ele tem atrapalhado o meu sono, me recomendaram o "chafé da mamãe", tãoooo gostoso, melhorou minha manhã e ainda por cima não atrapalhou minha noite de sono.</p>
+            <img src="images/pic-2.png" class="user" alt="">
+            <h3>Isabel Dantas</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Nada melhor que tomar um cafezinho pela manhã, a bebida de vocês é maravilhosa, gosto de todas as suas variedades, sou viciado! queria morar perto da loja para poder comprar a qualquer hora skskksksk.</p>
+            <img src="images/pic-3.png" class="user" alt="">
+            <h3>Gustavo Montes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- seção review fim -->
+
+<!-- seção contato início -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>Nosso</span> contato </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.795506882336!2d72.84072450000001!3d19.141650499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Bombaim%2C%20Maharashtra%20400047%2C%20%C3%8Dndia!5e0!3m2!1spt-BR!2sbr!4v1648517601465!5m2!1spt-BR!2sbr"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <form action="">
+            <h3>entrar em contato</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="nome">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="número">
+            </div>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- seção contato fim -->
+
+<!-- seção blogs início -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> nossos <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-1.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">chafé da mamãe</a>
+                <span>by admin / 21st may, 2022</span>
+                <p>nada é melhor que um cafezinho quentinho, para pessoas que sofrem com gastrite e insônia isso é um problema, mas trouxemos essa inovação, para qualquer viciado em café poder tomar sem medo...</p>
+                <a href="#" class="btn">leia mais</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Tinta de impressora</a>
+                <span>by admin / 15st may, 2021</span>
+                <p>Café mais aclamado pelos executivos e estudantes, te mantem acordado e pode aumentar sua ateção em 40%, noites mal dormidas não vai ser mais um problema para você!...</p>
+                <a href="#" class="btn">leia mais</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-3.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">café com leite</a>
+                <span>by admin / 12st may, 2021</span>
+                <p>uma ótima opção para aqueles que gostam do café mais prefere algo mais suave, ideal para criaças e jovens em processo de crescimente, não atrapalha o sono...</p>
+                <a href="#" class="btn">leia mais</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- seção blogs fim -->
+
+<!-- seção rodapé início -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="https://www.linkedin.com/in/camila-carla-soares-092353232/" class="fab fa-facebook-f"></a>
+        <a href="https://www.linkedin.com/in/camila-carla-soares-092353232/" class="fab fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/camila-carla-soares-092353232/" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/camila-carla-soares-092353232/" class="fab fa-linkedin"></a>
+        <a href="https://www.linkedin.com/in/camila-carla-soares-092353232/" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">sobre</a>
+        <a href="#">menu</a>
+        <a href="#">produtos</a>
+        <a href="#">review</a>
+        <a href="#">contato</a>
+        <a href="#">blogs</a>
+    </div>
+
+    <div class="credit">desenvolvido por: <span>camila carla soares</span> orientado pelos tutoriais de: <span>mr. web designer</span> | all rights reserved</div>
+
+</section>
+
+<!-- seção rodapé fim -->
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
